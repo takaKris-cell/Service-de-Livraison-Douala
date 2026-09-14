@@ -1,0 +1,65 @@
+/* Subscription Form Styles */
+.subscription-form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.form-success {
+  padding: 4rem 2rem;
+}
+
+.success-icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-success h2 {
+  margin-bottom: 1rem;
+}
+
+.form-success p {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+select.form-control {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23475569' d='M6 8.825L.575 3.4 1.4 2.575 6 7.175l4.6-4.6.825.825z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  padding-right: 2.5rem;
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .subscription-form { padding: 2.5rem 2rem; }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .form-row { grid-template-columns: 1fr; gap: 0; }
+  .subscription-form { padding: 2rem 1.5rem; }
+  .form-success { padding: 3rem 1.5rem; }
+  .success-icon { font-size: 3rem; }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .subscription-form { padding: 1.5rem 1rem; border-radius: 12px; }
+  .form-control { padding: 0.875rem 0.75rem; font-size: 1rem; }
+}
