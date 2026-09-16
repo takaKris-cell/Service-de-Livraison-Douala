@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="glow-bg-hero"></div>
       <div className="container hero-container">
         <div className="hero-content fade-in-up">
-          <div className="badge">Livraison Express à Douala 🚀</div>
+          <div className="badge">Livraison rapide dans la ville de Douala 🏍️💨</div>
           <h1 className="hero-title">Vos colis livrés en <span className="gradient-text">Temps Record</span></h1>
           <p className="hero-subtitle">Rapide, sécurisé et fiable. Confiez-nous vos paquets et suivez-les en temps réel jusqu'à destination, partout dans la ville de Douala.</p>
           <div className="hero-cta">
